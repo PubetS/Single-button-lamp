@@ -7,3 +7,9 @@ And the second mode, when we long time pressd switch (around 3 seconds.LED is tu
 
 # circuit diagram
 ![Lamp_single_button](https://user-images.githubusercontent.com/33513314/106379237-15d2f080-63dd-11eb-997f-b1bd2512ac4a.png)
+
+
+# reference web page
+How to use ATtiny85 microcontroller board with Arduino IDE
+
+http://www.micontechlab.com/product/927/1x-%E0%B9%81%E0%B8%9C%E0%B8%87%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3-arduino-attiny85-digispark-kickstarter-usb-interface
