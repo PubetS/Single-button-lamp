@@ -20,6 +20,7 @@ void loop(){
   {
     LEDstate = !LEDstate; //toggle LED when SW is pressed
     digitalWrite(ledPin, LEDstate); 
+     buttonPushCounter = 0;
 
     while(digitalRead(buttonPin)==LOW&&LEDstate==HIGH)
     {
@@ -27,12 +28,10 @@ void loop(){
       delay(50);
     }
   }
-  if (digitalRead(buttonPin)== HIGH && buttonPushCounter >= 60) //check SW has been long press
+  if (digitalRead(buttonPin)== HIGH && buttonPushCounter >= 20) //check SW has been long press
   {     
     LEDstate = 0;
     buttonPushCounter = 0;
     digitalWrite(ledPin, LEDstate); // Turn LED off
   }
 }
-
-
